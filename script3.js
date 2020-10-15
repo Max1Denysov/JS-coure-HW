@@ -1,5 +1,5 @@
 var side = prompt("Длина стороны");
-    var pr = side*4;
-var s = side*side;
-
-alert('площадь ='+ ' ' +  s + ' ' + 'периметр'+ ' ' +  pr);
+var pr = side*4;
+var u = side*side;
+var s = '  ';
+alert('площадь ='+ s +  u + s + 'периметр'+ s +  pr);
