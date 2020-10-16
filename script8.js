@@ -1,6 +1,5 @@
-var FMoney = prompt("Cумма денег в кошельке");
-var OPrice = prompt("Цена одной шоколадки");
-var Numb = Math.trunc(FMoney/OPrice);
-var s = '   ';
-var oth= FMoney-(OPrice*Numb) ;
-alert(Numb+ s+'шоколадок'+s+'Сдача ='+s+oth);
+let money = prompt("Cумма денег в кошельке");
+var price = prompt("Цена одной шоколадки");
+var numb = Math.trunc(money/price);
+var oth= money-(price*numb) ; 
+alert(numb+' шоколадок - Сдача ='+oth);
