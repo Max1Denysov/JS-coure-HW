@@ -1,5 +1,4 @@
-var year = prompt("Год рождения");
+let year = prompt("Год рождения");
 const present = 2020;
-var result = present-year;
-var s = '   ';
-alert('Ваш возраст'+ s +  result + s + 'лет');
+let result = present-year;
+alert('Ваш возраст='+ result + '_лет');
