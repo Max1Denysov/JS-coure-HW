@@ -1,4 +1,3 @@
-var radius = prompt("Радиус окружности");
-var p =   Math.PI * radius*radius;
-var s = '  ';
-alert('площадь ='+ s +  p );
+let radius = prompt("Радиус окружности");
+let p =   Math.PI * radius * radius;
+alert('площадь =' +  p );
