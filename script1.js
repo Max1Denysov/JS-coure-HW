@@ -1,4 +1,4 @@
-var name = prompt("Имя");
-var sname = prompt("Фамилия");
-var s = '  '   ;
-alert('Привет' + s +sname+s+ name);
+  const name = prompt('Имя');
+  const sname = prompt('Фамилия');
+  const str = sname+"_"+name;
+  alert('Привет_'+str);
