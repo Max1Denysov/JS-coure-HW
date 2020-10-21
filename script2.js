@@ -1,5 +1,7 @@
-let year = prompt('год рождения')
-function myAge(){
+
+function myAge() {
+  let year = prompt('год рождения')
   return 2020 - year
 }
- alert( myAge());
+ alert( myAge())
+ 
