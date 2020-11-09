@@ -1,4 +1,4 @@
-  const name = prompt('Имя');
-  const sname = prompt('Фамилия');
-  const str = sname + '_' + name;
-  alert('Привет_' + str);
+let ioua = ['hello'];
+ioua[2]=prompt('enter name');
+ioua[1]=prompt('enter surname');
+alert(ioua);
