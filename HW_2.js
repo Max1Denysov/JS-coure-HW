@@ -9,12 +9,12 @@ alert(S);
 //Task № 2
 ///////////////////
 function hTask2() {
-const A1 = prompt('Рублей за 1 кг А1')
-const A2 = prompt('Рублей за 1 кг А2')
-const A3 = prompt('Рублей за 1 кг А3')
-const B1 = prompt('Кг песка типа А1')
-const B2 = prompt('Кг песка типа А2')
-const B3 = prompt('Кг песка типа А3')
+const A1 = prompt('Рублей за 1 кг А1');
+const A2 = prompt('Рублей за 1 кг А2');
+const A3 = prompt('Рублей за 1 кг А3');
+const B1 = prompt('Кг песка типа А1');
+const B2 = prompt('Кг песка типа А2');
+const B3 = prompt('Кг песка типа А3');
 
         let prices = [A1, A2, A3];
 
