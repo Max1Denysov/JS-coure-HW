@@ -4,7 +4,9 @@ let put = ['hello'];
 put[2] = prompt('enter name');
 put[1] = prompt('enter surname');
 alert(put);
-//Task № 2 
+
+//Task № 2
+///////////////////////
 function myAge() {
   let year = 2020 - prompt('год рождения')
   return  year
